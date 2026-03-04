@@ -21,7 +21,7 @@ body {
 .title {
   font-size: 40px;
   font-style: normal;
-  color: rgb(93, 80, 7);
+  color: paleturquoise;
   text-decoration: underline;
   text-align: center;
 }
@@ -33,6 +33,22 @@ body {
   background: linear-gradient(to right, blue, black);
   z-index: -1;
   animation: fadeInDown 1s ease-in-out;
+}
+
+#heading3
+{
+   color: greenyellow;
+   
+}
+
+.checkbox-group
+{
+  color: whitesmoke;
+}
+
+.radio-group
+{
+  color: whitesmoke;
 }
 
 
@@ -47,6 +63,7 @@ body {
 form {
   position: relative;
   background: lightcyan;
+  color: aliceblue;
   padding: 30px;
   border-radius: 15px;
   width: 100%;
