@@ -21,7 +21,7 @@ body {
 .title {
   font-size: 40px;
   font-style: normal;
-  color: gold;
+  color: rgb(93, 80, 7);
   text-decoration: underline;
   text-align: center;
 }
@@ -153,7 +153,7 @@ button:hover {
 }
 
 @keyframes rainbowBorder {
-  0% { background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); }
+  0% { background: linear-gradient(45deg,red, orange, yellow, green, blue, indigo, violet); }
   100% { background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red); }
 }
 
